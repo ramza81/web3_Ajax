@@ -17,11 +17,20 @@
         //     })
         // })
 
-        function callbacme(){
-            console.log('resonse end');
-        }
+        // // Asynchronous
+        // function callbacme(){
+        //     console.log('resonse end');
+        // }
 
-        fetch('html').then(callbacme);
+        // callbacme = function(){
+        //     console.log('resonse end');
+        // }
+
+        fetch('html').then(function(response){
+            console.log('Respnose End!');
+        });
+
+
         console.log(1);
         console.log(2);
 
