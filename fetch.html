@@ -11,11 +11,18 @@
 
     </article>
     <input type="button" value="fetch" onclick="
-        fetch('css').then(function(response){
-            response.text().then(function(text){
-                document.querySelector('article').innerHTML = text;
-            })
-        })
+        // fetch('css').then(function(response){
+        //     response.text().then(function(text){
+        //         document.querySelector('article').innerHTML = text;
+        //     })
+        // })
+
+        function callbacme(){
+            console.log('resonse end');
+        }
+
+        fetch('html').then(callbacme);
+        
         ">
 </body>
 </html>
