@@ -26,8 +26,12 @@
         //     console.log('resonse end');
         // }
 
-        fetch('html').then(function(rep){
-            console.log(rep);
+        fetch('xxxs').then(function(response){
+            console.log(response);
+
+            if (response.status == '404'){
+                alert('Not found');
+            }
         });
 
 
