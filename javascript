@@ -1,26 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>WEB3 - Ajax</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="colors.js"></script>
-</head>
-
-<body>
-    <h1><a href="index.html">WEB</a></h1>
-    <input id="night_day" type="button" value="night" onclick="nightDayHandler(this);">
-    <ol>
-        <li><a href="1.html">HTML</a></li>
-        <li><a href="2.html">CSS</a></li>
-        <li><a href="3.html">JavaScript</a></li>
-    </ol>
-
-    <h2>JavaScript</h2>
-    <p>JavaScript (/ˈdʒɑːvəˌskrɪpt/),[8] often abbreviated as JS, is a high-level,
+<h2>JavaScript</h2>
+<p>JavaScript (/ˈdʒɑːvəˌskrɪpt/),[8] often abbreviated as JS, is a high-level,
         interpreted programming language that conforms to the ECMAScript specification.
         It is a language that is also characterized as dynamic, weakly typed, prototype-based and
         multi-paradigm.
@@ -43,7 +22,3 @@
         respective standard libraries, the two languages are distinct and differ greatly in design;
         JavaScript was influenced by programming languages such as Self and Scheme.
     </p>
-
-</body>
-
-</html>
