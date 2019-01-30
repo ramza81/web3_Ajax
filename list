@@ -1,1 +1,4 @@
-htm,css,javascript,ajax
+        <li><a href="#!html" onclick="fetchPage('html', 'article')">HTML</a></li>
+        <li><a href="#!css" onclick="fetchPage('css', 'article') ">CSS</a></li>
+        <li><a href="#!javascript" onclick="fetchPage('javascript', 'article')">JavaScript</a></li>
+        <li><a href="#!ajax" onclick="fetchPage('ajax', 'article')">Ajax</a></li>
